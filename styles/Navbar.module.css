@@ -1,0 +1,276 @@
+
+.navbar{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid #DEE2E6;
+    width: 100%;
+    height:62px  ;
+    overflow: hidden;
+    /* background-color: orange; */
+}
+
+
+.navbar_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 30px;
+    width: 100%;
+
+}
+
+
+/* navaber center */
+.navbar_center{
+    display:flex;
+    justify-content: center;
+    flex:4;
+}
+
+.navbar_input{
+    background-color: #E9ECEF;
+    outline: none;
+    border:none;
+    height:35px;
+    font-size: 16px;
+    padding-left:10px ;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    width: 70%;
+}
+
+/* navbar left side  */
+.navbar_left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center; 
+}
+
+.logo{
+    margin-right: 4px;
+    height: 35px;
+    width: 35px;
+}
+
+.logo_text{
+    color: #FD2534;
+    font-size: 34px;
+    font-weight: bold;
+   font-family: Poppins, sans-serif;
+}
+
+/* Navbar right side  */
+.navbar_right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;     
+}
+
+.nav_icon_text{
+    font-size: 10px;
+    color: #6C757D;font-size: 10px;
+}
+
+.navbar_icon{
+   
+}
+.icon{
+    color: #343A40;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.nav_header_right{
+    /* background-color: var(--red); */
+    display: flex;
+    /* flex:1; */
+    align-items: center;
+    /* justify-content:space-between; */
+    font-size: 13px;
+  
+}
+.header_item{
+    display: flex;
+    align-items: center;
+    padding-right: 22px;
+    /* background-color:red ; */
+
+}
+.dropdown_icon{
+    font-size:15px;
+    color:var(--text-gray);
+    /* font-size: px; */
+}
+.display_mode_icon{
+    background-color:var(--category-gray);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    padding:3px 6px;
+    /* font-size:22px; */
+}
+.mode_icon{
+    font-size:19px;
+}
+
+
+
+
+
+
+/* device media queries  */
+@media (max-width: 480px) {
+    .logo_text{
+      display: none;
+    }
+    .icon{
+        color: #343A40;
+        font-weight: 100;
+    }
+    .nav_icon_text{
+        display: none; 
+    }
+    .navbar_input{
+        display: none;
+    }
+
+    .navbar_right{
+        display: flex;
+        flex: 8;
+        align-items: center;
+        width: 50%;
+        justify-content: space-between;     
+    }
+
+    .navbar_left{
+        display: flex;
+        flex: 1;         
+     }
+  }
+  @media (max-width: 840px) {
+    .logo_text{
+      display: none;
+    }
+    .icon{
+        color: #343A40;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .nav_icon_text{
+        display: none;
+    
+    } 
+  }
+
+  /* navbar header */
+.nav_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    margin:0px;
+    height:30px;
+    /* border-bottom:3px solid black; */
+    -webkit-box-shadow: 0 10px 5px #dfdbdb;
+    -moz-box-shadow: 0 10px 5px #f3ebeb;
+    box-shadow: 0 5px 5px #f3eded;
+
+
+    
+}
+
+
+.nav_header_left{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(196, 153, 187); */
+    align-items: center;
+}
+.nav_header_right{
+    display: flex;
+    /* background-color: green; */
+}
+
+.genre{
+    display:flex;
+    align-items:center;
+    background-color: #FD2534;;
+    /* height: 50px; */
+    cursor: pointer;
+    padding:0px;
+    margin:0px; 
+    color: white;
+    padding:9px;
+    font-size:13px
+
+}
+.genre_icon{
+    font-size: 16px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.store{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    /* background-color: #56359e; */
+    /* height: 50px; */
+    padding:0px;
+    margin:0px; 
+    color: #6C757D;
+    padding:5px;
+    font-size:12px
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
