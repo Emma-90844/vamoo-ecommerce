@@ -12,7 +12,7 @@ function Footer() {
     <>
     <div className={styles.container}>
 
-      <section className={styles.upper_section}>
+      <div className={styles.upper_section}>
       <div className={styles.left_side}>
         <div className={styles.footer_logo}>
             <Image
@@ -74,21 +74,19 @@ function Footer() {
             />
             </div>
         </div>
-      </section>
+      </div>
 
       <hr className={styles.footer_line}/>
 
-      <section className={styles.lower_section}>
+      <div className={styles.lower_section}>
         <div className={styles.lower_left_side}>
-            <p>© 2020 Company All rights reserved</p>
+            <p>© 2023 Company All rights reserved</p>
         </div>
         <div className={styles.lower_right_side}>
             <p>Privacy Cookies </p>
           <p>Accessibility</p>
         </div>
-      </section>
-     
-
+      </div>
     </div>
 
 
