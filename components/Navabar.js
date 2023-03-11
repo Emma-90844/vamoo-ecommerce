@@ -60,6 +60,7 @@ function Navabar() {
 
           <div className={styles.navbar_center}>
             <input
+            
               className={styles.navbar_input}
               placeholder="Search anything"
             />
@@ -111,7 +112,7 @@ function Navabar() {
               <a onClick={(e) => e.preventDefault()}>
                 <Space>
                    Pages
-                  <CaretDownOutlined/>
+                  <CaretDownOutlined className={styles.down_icon}/>
                 </Space>
               </a>
          </Dropdown>
@@ -120,7 +121,7 @@ function Navabar() {
               <a onClick={(e) => e.preventDefault()}>
                 <Space>
                   English
-                  <CaretDownOutlined/>
+                  <CaretDownOutlined className={styles.down_icon}/>
                 </Space>
               </a>
          </Dropdown>

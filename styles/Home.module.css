@@ -1,14 +1,18 @@
 .home{
   display: flex ;
    flex-direction:column;
+   width: 100%;
+   height: calc(100vh - 50px);
 }
 .main{
+  /* position: relative; */
   display: flex;
-  /* flex-direction:column; */
-  height: calc(100vh - 50px);
-
+  flex-direction:column;
+  align-items: center;
+  
   background-color: #EEF1F6;
   justify-content:center;
+  /* margin-top: -0px; */
 
 }
 

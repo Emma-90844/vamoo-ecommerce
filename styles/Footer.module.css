@@ -1,0 +1,167 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #000000;
+    font-size: 13px;
+    padding:0px 3% ;
+   
+}
+
+/* sections */
+.upper_section{
+    width: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    /* border-bottom: 1px solid white; */
+}
+.lower_section{
+    width: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    /* background-color: aqua; */
+    color: gray;
+    padding:15px 25px;
+}
+.lower_left_side{
+    flex: 7;
+/* background-color: red; */
+}
+
+.lower_right_side{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    flex: 4;
+    align-items: flex-start;
+    /* background-color: blue; */
+}
+
+.left_side{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    flex: 1;
+    /* line-height: 5px; */
+    color: gray;
+    /* background-color: rgb(253, 240, 240); */
+}
+.right_side{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-size: 11px;
+    padding: 30px;
+    flex: 2;
+    /* background-color: rgb(233, 178, 178); */
+}
+
+.link{
+    text-decoration: none;
+    color: #6C757D;
+    margin-bottom: 15px;
+}
+
+.footer_col{
+    display: flex;
+    color: #6C757D;
+    flex-direction: column;
+    /* background-color: yellow; */
+    width: 100%;
+}
+
+.logo_text{
+    font-size: 35px;
+    color: white;
+    font-weight: 400;
+}
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+    color: white;
+    
+}
+.footer_line{
+    color: white;
+    width: 95%;
+    align-self: center;
+    margin: 10px;
+}
+.app_logo{
+    /* object-fit: cover; */
+    width: 100px;
+    margin-top: 10px;
+    height: 50px;
+
+}
+
+.footer_h1{
+    font-size: 20px;
+    font-weight: 400;
+    /* background-color: red; */
+}
+.footer_text{
+    line-height: 18px;
+}
+.social_links{
+    /* background-color: blue ; */
+}
+.social_link{
+    color: rgb(31, 19, 19);
+    background-color: white;
+    border-radius: 30%;
+    padding: 5px ;
+    font-size: 10px;
+    width: 40px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 751px){
+
+    .input_box{
+        display: flex;
+        width: 100%;
+    }
+    .left_side{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .upper_section{
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
