@@ -13,6 +13,18 @@
 
 
 
+/* MEDIA QUERIES */
+
+@media (max-width: 450px){
+.product_feed{
+    display: grid;
+    /* flex-wrap: wrap; */
+    /* background-color: red; */
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+   
+}
 
 
 
