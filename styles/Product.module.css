@@ -8,7 +8,7 @@
     width: 209px;
     background-color: white;
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
@@ -49,7 +49,7 @@
     padding: 4px;
     font-size: 30px;
     border-radius: 10px;
-    color: rgb(90, 90, 90);
+    color: rgb(161, 161, 161);
     /* stroke: black; */
      stroke-width: 0.1;
      margin: 8px;
