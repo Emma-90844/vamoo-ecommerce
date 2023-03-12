@@ -9,6 +9,6 @@
 
 module.exports  = {
   images:{
-    domains:['fakestoreapi.com']
+    domains:["fakestoreapi.com", "res.cloudinary.com"]
   }
 }

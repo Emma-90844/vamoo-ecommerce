@@ -7,7 +7,7 @@ import Category from './../components/Category';
 import Footer from './../components/Footer';
 import Subscription from './../components/Subscription';
 import ProductFeed from './../components/ProductFeed'
-
+import ProductSlider from './../components/ProductSlider'
 
 export default function Home({products}) {
   return (
@@ -21,6 +21,7 @@ export default function Home({products}) {
 
       <Navabar/>
       <main className={styles.main}>
+      <ProductSlider/>
       <Category/>  
       <ProductFeed products={products}/>
      
