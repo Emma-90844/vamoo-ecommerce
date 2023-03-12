@@ -16,7 +16,7 @@ function Footer() {
       <div className={styles.left_side}>
         <div className={styles.footer_logo}>
             <Image
-              src="/../public/camera-white.png"
+              src="https://res.cloudinary.com/student90844/image/upload/v1678611716/camera-white_ecm3jg.png"
               width={50}
               height={50}
               className={styles.logo_icon}
@@ -61,13 +61,13 @@ function Footer() {
            <div className={styles.footer_col}>  <h1 className={styles.footer_h1}>Our app</h1>
             {/* <a href="" className={styles.link }>About Us</a> */}
             <Image
-              src="/../public/misc/appstore.png"
+              src="https://res.cloudinary.com/student90844/image/upload/v1678611727/appstore_daqucw.png"
               width={50}
               height={50}
               className={styles.app_logo}
             />
             <Image
-              src="/../public/misc/playmarket.png"
+              src="https://res.cloudinary.com/student90844/image/upload/v1678611754/playmarket_hbortk.png"
               width={50}
               height={50}
               className={styles.app_logo}

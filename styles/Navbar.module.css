@@ -199,12 +199,12 @@ font-size: 10px;
     margin:0px;
     height:30px;
     /* border-bottom:3px solid black; */
-    -webkit-box-shadow: 0 10px 5px #dfdbdb;
+    /* -webkit-box-shadow: 0 10px 5px #dfdbdb;
     -moz-box-shadow: 0 10px 5px #f3ebeb;
     box-shadow: 0 5px 5px #f3eded;
+ */
 
-
-    
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 

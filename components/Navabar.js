@@ -50,7 +50,7 @@ function Navabar() {
         <div className={styles.navbar_main}>
           <div className={styles.navbar_left}>
             <Image
-              src="/../public/favicon.ico"
+              src="https://res.cloudinary.com/student90844/image/upload/v1678611683/favicon_fhd8bn.ico"
               width={50}
               height={50}
               className={styles.logo}
