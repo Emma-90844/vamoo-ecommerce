@@ -21,7 +21,7 @@ export default function Home({products}) {
 
       <Navabar/>
       <main className={styles.main}>
-      <ProductSlider/>
+      <ProductSlider products={products}/>
       <Category/>  
       <ProductFeed products={products}/>
      

@@ -4,9 +4,10 @@ import styles from '../styles/ProductFeed.module.css';
 
 
 function ProductFeed({products}) {
+
   return (
     <div className={styles.product_feed}>
-        {/* <h2>Procts here</h2> */}
+    
       {products.map(({id, title, price, description, category, image}) => (
         <Product
         key={id}

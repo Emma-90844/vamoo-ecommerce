@@ -65,12 +65,14 @@ function Footer() {
               width={50}
               height={50}
               className={styles.app_logo}
+              objectFit="cover"
             />
             <Image
               src="https://res.cloudinary.com/student90844/image/upload/v1678611754/playmarket_hbortk.png"
               width={50}
               height={50}
               className={styles.app_logo}
+              objectFit="cover"
             />
             </div>
         </div>

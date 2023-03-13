@@ -67,13 +67,15 @@
     margin-right: 4px;
     height: 35px;
     width: 35px;
+    cursor: pointer;
 }
 
 .logo_text{
     color: #FD2534;
     font-size: 34px;
     font-weight: bold;
-   font-family: Poppins, sans-serif;
+   font-family: "Poppins", sans-serif;
+   cursor: pointer;
 }
 
 /* Navbar right side  */
@@ -87,6 +89,7 @@
 .nav_icon_text{
     font-size: 10px;
     color: #6C757D;font-size: 10px;
+    cursor: pointer;
 }
 
 .navbar_icon{
@@ -96,6 +99,7 @@
     color: #343A40;
     font-size: 30px;
     font-weight: 100;
+    cursor: pointer;
 }
 
 .nav_header_right{
@@ -126,6 +130,7 @@ color: gray;
 padding-right: 5px;
 font-size: 10px;
 /* padding-right: 3px; */
+cursor: pointer;
 }
 .display_mode_icon{
     background-color:var(--category-gray);
@@ -136,9 +141,11 @@ font-size: 10px;
     -o-border-radius:10px;
     padding:3px 6px;
     /* font-size:22px; */
+    cursor: pointer;
 }
 .mode_icon{
     font-size:19px;
+    cursor: pointer;
 }
 
 
@@ -283,6 +290,20 @@ font-size: 10px;
     }
 }
 
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 751px){
+    .genre{
+        /* margin-right: 100px; */
+        padding:7.02px;
+    margin-left: 20px;
+    font-size:13px
+    }
+   
+ 
+}
 
 
 
